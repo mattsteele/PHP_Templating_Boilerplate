@@ -1,4 +1,4 @@
-Frameworq 2.0 - Sass
+Pathfinder 2.0 - Sass/PHP
 
 This is the basic boilerplate for my new Sass builds
 
@@ -38,7 +38,7 @@ Parent/
 |   ...                  # Etc…
 |
 |– vendors/
-|   |– _jquery-ui.scss   # jQuery UI
-|   ...                  # Etc…
+|   |– _fancy-box.scss   # Fancybox
+|   |-_slider.scss       # Slider
 |
 `– main.scss             # primary Sass file
