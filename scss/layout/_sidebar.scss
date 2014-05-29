@@ -1,0 +1,59 @@
+/*  SIDEBAR
+=================================================================== /// */
+
+.aside-toggle {
+  display: none;
+  text-align: center;
+  @media only screen and (max-width : 630px) {
+    display: block;
+    color: #fff;
+    padding: 0;
+    margin-bottom: 25px;
+    & a{
+      display: block;
+      background: url(/a/i/nav_blue.png) no-repeat 92% 11px;
+      // background-color: $blue-1;
+      border: 2px solid $blue-1;
+      cursor: pointer;
+      padding: 8px;
+      text-decoration: none;
+      color: $blue-1;
+      font-family: $font-roboto;
+    }
+  }
+}
+
+ @media only screen and (max-width : 630px) {
+  .aside-drawer{
+    display: none;
+    text-align: center;
+  }
+ }
+
+.search-form .aside-search-submit-position {
+  position: absolute;
+  right: 0;
+}
+
+.search-form .aside-search-term-width {
+  width: 100%;
+}
+
+.aside-container h3{
+  font-size: 20px;
+  color: #000;
+border-bottom: 1px solid $grey-3;
+}
+
+.aside-container ul{
+  margin-top: 0;
+}
+
+.aside-container ul li{
+  padding: 3px 0;
+}
+
+aside{
+  // border: 2px solid red;
+  float: right;
+}

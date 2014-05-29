@@ -1,0 +1,41 @@
+/*  RESET
+=================================================================== /// */
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; 
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+  box-sizing: border-box; *behavior: url(/a/j/boxsizing.htc); 
+ }
+
+div {position: relative;}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,nav,section,summary {display: block;}
+audio,canvas,video {display: inline-block; *display: inline; *zoom: 1;}
+audio:not([controls]) {display: none; height: 0;}
+[hidden] {display: none;}
+
+html, body {padding: 0; margin: 0;}
+html {position: relative; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; background-color: $body-background-color;}
+
+
+hr {position: relative; clear: both; display: block; height: 1px; border: 0; border-top: 1px solid #999; margin: 1em 0; padding: 0;}
+
+img {vertical-align: middle;}
+fieldset {border: 0; margin: 0; padding: 0;}
+textarea {resize: vertical;}
+table {border-collapse: collapse; border-spacing: 0;}
+
+blockquote:before, blockquote:after,
+q:before, q:after {content:''; content:none}
+
+dl, menu, ol, ul {margin: 0;}
+dd {margin: 0;}
+menu, ol, ul {padding: 0;}
+nav ul, nav ol, ul, ol {list-style: none; list-style-image: none;}
+
+::-moz-selection {background: #ccc; color: #333; text-shadow: none;}
+::selection {background: #ccc; color: #333; text-shadow: none;}
+
+* {-webkit-text-size-adjust: none;}
