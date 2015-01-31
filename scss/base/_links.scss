@@ -1,5 +1,6 @@
-/*  LINKS
-=================================================================== /// */
+/*--------------------------------------------------------------
+  XX.X Links
+--------------------------------------------------------------*/
 
 
 a {cursor: pointer; 
@@ -26,10 +27,6 @@ a {cursor: pointer;
 	}
 }
 
-/*
-a:-webkit-any-link {
-	color: -webkit-link;
-	text-decoration: none;
-	cursor: auto;
+.link-underline{
+  text-decoration: $link-underline;
 }
-*/

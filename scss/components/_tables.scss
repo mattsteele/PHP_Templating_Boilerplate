@@ -1,5 +1,6 @@
-/*  TABLES
-=================================================================== /// */
+/*--------------------------------------------------------------
+  XX.X Tables
+--------------------------------------------------------------*/
 
 table {border-collapse: collapse; border-spacing: 0; width: 100%; margin-bottom: 15px;}
 thead {border-bottom: 1px solid #ccc;}
@@ -9,8 +10,10 @@ td {font-size: 11px; background: #fff; padding: .8em 10px; border-right: 1px sol
 tfoot td {background: #f1f1f1; border-left: 1px solid #ccc; text-shadow: none;}
 td, td img {vertical-align: top}
 
-/*  Calendar
---------------------------------------------------- /// */
+
+/*--------------------------------------------------------------
+  XX.X Calendars
+--------------------------------------------------------------*/
 
 .events_searchform {position: relative; width: 33%; background: #fff; padding: 10px; margin: 0 0 20px 0;}
 .events_searchform input.search_field {width: 86%; padding: 5px 10% 5px 3%; border: 1px solid #d3d3ca; color: #696965; font-size: 16px;}
@@ -49,14 +52,3 @@ table.events_calendar.full tbody td:first-child .event-details {left: 0; margin-
 table.events_calendar.full tbody td:first-child .event-details .arrow {left: -1px; margin-left: 0;}
 table.events_calendar.full tbody td:last-child .event-details {left: auto; right: 0; margin-left: 0;}
 table.events_calendar.full tbody td:last-child .event-details .arrow {left: auto; right: -2px; margin-left: 0;}
-
-.event-details{
-  color: #000;
-    & h4{
-      font-size: 14px;
-    }
-    & p{
-      font-size: 14px;
-    }
-  }
-
