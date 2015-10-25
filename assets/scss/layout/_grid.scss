@@ -1,0 +1,15 @@
+/*  GRID
+=================================================================== /// */
+
+.content-wrapper{
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.mobile-wrapper{
+	@media only screen and (max-width: 865px) {
+		padding-left: 2%;
+		padding-right: 2%;
+	}
+}

@@ -43,7 +43,7 @@
 	<div class="group content-wrapper mobile-wrapper">
 
 	<div class="sub-footer-left">
-		<p>&copy; 2014 Front-End Boilerplate, LLC</p>
+		<p>&copy; <?php echo date("Y") ?> Company Name, LLC</p>
 	</div> <!-- / sub-footer-left -->
 
 	<div class="sub-footer-right">
@@ -56,10 +56,9 @@
 
 
 <!-- load jQuery & fallback, scripts -->
-<script src='//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js'></script>
-<script>window.jQuery || document.write('<script src=\'/a/j/libs/jquery-1.8.1.min.js\'><\/script>')</script>
-<script src="<?php echo $site_url; ?>a/j/plugins.js"></script>
-<script src="<?php echo $site_url; ?>a/j/script.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src=\'/assets/js/libs/jquery-2.1.4.min.js\'><\/script>')</script>
+<script src="<?php echo $site_url; ?>assets/js/min/script-min.js"></script>
 
 </body>
 </html>

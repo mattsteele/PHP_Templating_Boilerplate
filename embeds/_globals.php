@@ -7,7 +7,7 @@
 
 // Globals
 
-$site_name = 'Families Connecting Dev'; // Site Name
+$site_name = 'PHP Boilerplate'; // Site Name
 $subdir = '/'; // If in a subdirectory, add it here ( ie: /project/ )
 $subsubdir = ''; // If in a sub sub directory, add it here but do not include a slash at the front ( ie: something/ )
 $site_url = 'http://'.$_SERVER['HTTP_HOST'].$subdir.$subsubdir; // Compiled Base URL

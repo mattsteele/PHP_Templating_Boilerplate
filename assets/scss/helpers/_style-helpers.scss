@@ -1,0 +1,22 @@
+/*--------------------------------------------------------------
+XX.X Style Helpers
+--------------------------------------------------------------*/
+
+strong, .bold {font-weight: bold;}
+.roman, .book {font-weight: normal;}
+.fw100 {font-weight: 100;}.fw200 {font-weight: 200;}.fw300 {font-weight: 300;}
+.fw400 {font-weight: 400;}.fw500 {font-weight: 500;}.fw600 {font-weight: 600;}
+.fw700 {font-weight: 700;}.fw800 {font-weight: 800;}.fw900 {font-weight: 900;}
+
+.block {display: block;}.inline {display: inline;}.inline-block {display: inline-block; *display: inline; zoom: 1;}
+em,.italic {font-style: italic;}.normal {font-style: normal;}.uppercase {text-transform: uppercase;}.lowercase {text-transform: lowercase;}.capitalize {text-transform: capitalize;}.smallcaps {font-variant: small-caps;}
+.txt-right {text-align: right;}.txt-left {text-align: left;}.txt-center {text-align: center;}.txt-justify {text-align: justify;}
+
+.ir {background-color: transparent; border: 0; overflow: hidden; *text-indent: -9999px;}
+.ir:before {content: ""; display: block; width: 0; height: 100%;}
+.hidden {display: none; visibility: hidden}
+.hidden-visually {position:absolute; overflow:hidden; margin:-1px; padding:0; width:1px; height:1px; border:0; clip:rect(0 0 0 0)}
+.hidden-visually:active,
+.hidden-visually:focus {position: static; overflow: visible; clip: auto; margin: 0; width: auto; height: auto}
+.invisible {visibility: hidden}
+.lastunit {display: table-cell; float: none; width: auto; *display: block; *zoom:1; _position: relative; _left: -3px; _margin-right: -3px;}
