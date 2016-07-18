@@ -29,7 +29,7 @@
 	font-family: $font-lato;
 	font-weight: bold;
 	font-size: 18px;
-	color: $font-white;
+	color: white;
 	background-color: $orange-1;
 	padding: 5px 10px;
 /*
@@ -39,6 +39,6 @@
 */
 	&:hover{
 		background-color: $orange-1;
-		color: $font-white;
+		color: white;
 	}
 }

@@ -6,7 +6,7 @@ ul#nav_access {position: absolute; top: -9999px; left: -9999px;}
 nav ul {padding: 0;}
 
 .utility-nav .disk {
-	color: $pure-white;
+	color: white;
 	font-size: 12px;
 }
 
@@ -32,7 +32,7 @@ nav ul {padding: 0;}
 	font-family: $font-lato;
 	font-size: 15px;
 	&	a{
-		color: $pure-white;
+		color: white;
 		&:hover{
 			color: $blue-3;
 		}
@@ -82,7 +82,7 @@ nav ul {padding: 0;}
 	& a{
 		color: $grey-3;
 		@media only screen and (max-width : 865px) {
-			color: $font-white;
+			color: white;
 		}
 	}
 
@@ -97,12 +97,12 @@ nav ul {padding: 0;}
 #primary-nav > ul > li:hover, #primary-nav > ul > li:active {
 	background-color: $grey-1;
 		& a{
-		color: $font-black;
+		color: black;
 	}
 }
 
 #primary-nav > li:hover a, #primary-nav > li:active a{
-	color: $font-black;
+	color: black;
 }
 
 
@@ -138,7 +138,7 @@ nav ul {padding: 0;}
 #primary-nav li.current:hover > a,
 #primary-nav li.parent-current:hover > a {
 	background-color: $brown-3;
-	color: $font-white;
+	color: white;
 }
 */
 
@@ -214,7 +214,7 @@ html.ie8 #primary-nav ul ul {border: 1px solid #ccc;}
 		border-bottom: 0;
 	}
 	& a{
-	color: $pure-black;
+	color: black;
 	}
 }
 

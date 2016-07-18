@@ -15,12 +15,12 @@ body {
 
 // -- Define Sizes -- //
 
-h1 {font-size: 26px; line-height: 1.1;}
-h2 {font-size: 21px; line-height: 1.1;}
-h3 {font-size: 19px; line-height: 1.1;}
-h4 {font-size: 17px; line-height: 1.1;}
-h5 {font-size: 15px; line-height: 1.1;}
-h6 {font-size: 13px; line-height: 1.1;}
+h1 {font-size: 26px; line-height: 1.3;}
+h2 {font-size: 21px; line-height: 1.3;}
+h3 {font-size: 19px; line-height: 1.3;}
+h4 {font-size: 17px; line-height: 1.3;}
+h5 {font-size: 15px; line-height: 1.3;}
+h6 {font-size: 13px; line-height: 1.3;}
 
 
 // -- Define Colors -- //
@@ -28,8 +28,7 @@ h6 {font-size: 13px; line-height: 1.1;}
 p {color: $body-font-color;}
 
 h1{
-	color: $pure-black;
-	font-weight: $font-family-weight-3;
+	color: black;
 	a{
 		color: $grey-4;
 		&:hover{
@@ -39,8 +38,7 @@ h1{
 }
 
 h2{
-	color: $pure-black;
-	font-weight: $font-family-weight-3;
+	color: black;
 	a{
 		color: $grey-4;
 		&:hover{
@@ -50,8 +48,7 @@ h2{
 }
 
 h3{
-	color: $pure-black;
-	font-weight: $font-family-weight-3;
+	color: black;
 	a{
 		color: $grey-4;
 		&:hover{
@@ -61,8 +58,7 @@ h3{
 }
 
 h4{
-	color: $pure-black;
-	font-weight: $font-family-weight-3;
+	color: black;
 	a{
 		color: $grey-4;
 		&:hover{
@@ -72,8 +68,7 @@ h4{
 }
 
 h5{
-	color: $pure-black;
-	font-weight: $font-family-weight-3;
+	color: black;
 	a{
 		color: $grey-4;
 		&:hover{
@@ -83,8 +78,7 @@ h5{
 }
 
 h6{
-	color: $pure-black;
-	font-weight: $font-family-weight-3;
+	color: black;
 	a{
 		color: $grey-4;
 		&:hover{
@@ -92,33 +86,6 @@ h6{
 		}
 	}
 }
-
-// -- Define Icons -- //
-
-@font-face {
-  font-family: 'site-icon';
-  src:url('../fonts/site-icon.eot?epvx5l');
-  src:url('../fonts/site-icon.eot?#iefixepvx5l') format('embedded-opentype'),
-    url('../fonts/site-icon.woff?epvx5l') format('woff'),
-    url('../fonts/site-icon.ttf?epvx5l') format('truetype'),
-    url('../fonts/site-icon.svg?epvx5l#site-icon') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.site-icon {
-  font-family: 'site-icon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 
 abbr[title] {border-bottom: 1px dotted;}
 b,

@@ -1393,7 +1393,7 @@ nav ul {
 #primary-nav li.current:hover > a,
 #primary-nav li.parent-current:hover > a {
 	background-color: $brown-3;
-	color: $font-white;
+	color: white;
 }
 */
 #primary-nav ul ul {

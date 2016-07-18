@@ -112,9 +112,9 @@
 
 <h2 class="color-chip-spacing">$grey-4 #3e3e3e<span class="color-chip grey-4-background"></span></h2>
 
-<h2 class="color-chip-spacing">$pure-white #FFFFFF<span class="color-chip pure-white-background"></span></h2>
+<h2 class="color-chip-spacing">white #FFFFFF<span class="color-chip pure-white-background"></span></h2>
 
-<h2 class="color-chip-spacing">$pure-black #000000<span class="color-chip pure-black-background"></span></h2>
+<h2 class="color-chip-spacing">black #000000<span class="color-chip pure-black-background"></span></h2>
 
 </div> <!--/ group -->
 
