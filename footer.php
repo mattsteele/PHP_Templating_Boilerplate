@@ -56,8 +56,8 @@
 
 
 <!-- load jQuery & fallback, scripts -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src=\'/assets/js/libs/jquery-2.1.4.min.js\'><\/script>')</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src=\'/assets/js/libs/jquery-3.1.0.min.js\'><\/script>')</script>
 <script src="<?php echo $site_url; ?>assets/js/min/script-min.js"></script>
 
 </body>
