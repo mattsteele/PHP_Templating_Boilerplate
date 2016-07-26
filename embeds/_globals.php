@@ -18,7 +18,7 @@ $site_url = 'http://'.$_SERVER['HTTP_HOST'].$subdir.$subsubdir; // Compiled Base
 // Provides 3 segment variables
 
 $uri = $_SERVER['REQUEST_URI'];
-$uri_array = split("/",$uri);
+$uri_array = explode("/",$uri);
 if ($subsubdir != ''){
 	$segment_1 = $uri_array[3];
 	$segment_2 = $uri_array[4];
