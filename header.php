@@ -24,8 +24,7 @@
   <link rel="apple-touch-icon" sizes="72x72" href="<?php echo $site_url; ?>apple-touch-icon-ipad.png">
   <link rel="apple-touch-icon" sizes="114x114" href="<?php echo $site_url; ?>apple-touch-icon-iphone4.png">
 
-  <link rel="stylesheet" href="<?php echo $site_url; ?>assets/css/style.css">
-  <script src="<?php echo $site_url; ?>assets/js/libs/modernizr-2.6.2.min.js"></script>
+  <link rel="stylesheet" href="<?php echo $site_url; ?>assets/build/style.css">
 
 
 </head>
