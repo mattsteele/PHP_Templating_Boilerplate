@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
-<div class="main" role="main">
+<div class="main"  >
 
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
@@ -10,7 +10,7 @@
 
 <div class="content-wrapper resources-listing-container">
 
-<div class="site-wrapper mobile-wrapper clearfix">
+<div class="site-wrapper mobile-wrapper group">
 
 <article class="col-standard-right">
   <h2>Event Title</h2>

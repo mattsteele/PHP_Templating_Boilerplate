@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
-<div class="main" role="main">
+<div class="main"  >
 
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
@@ -10,7 +10,7 @@
 
 <div class="content-wrapper resources-listing-container">
 
-<div class="site-wrapper mobile-wrapper clearfix">
+<div class="site-wrapper mobile-wrapper group">
 
 <div class="resources-single-left">
 
@@ -45,7 +45,7 @@
 </div> <!--/ resources-single-left-right-->
 </div> <!--/ resources-single-left-->
 
-<div class="resources-single-right clearfix">
+<div class="resources-single-right group">
 <h2>Melanie Jeferese</h2><h5 class="resource-verified"><span> Verified by FC</span></h5>
 <h5>Clinical Social Work/Therapist, LCSW</h5>
 <p>Fusce vel lorem risus. Phasellus tristique erat at commodo volutpat. Curabitur dui odio, pulvinar id justo id, eleifend dictum est. Sed facilisis leo nisl, non dapibus dolor iaculis sed. Pellentesque porttitor nisi ut quam pellentesque sagittis. Integer id leo iaculis, fermentum enim in, ultrices ante. Aliquam erat volutpat. Integer justo massa, eleifend non odio tristique, convallis fringilla massa. Duis ac pulvinar quam, a vehicula lectus. Suspendisse sit amet sapien in nibh mollis facilisis. Etiam dictum posuere sem. Fusce dignissim at velit eu rhoncus. Donec tincidunt adipiscing cursus. Aenean fringilla turpis in nibh molestie, tincidunt rutrum enim convallis. Etiam id erat ut erat fringilla ultrices a in nunc.</p>

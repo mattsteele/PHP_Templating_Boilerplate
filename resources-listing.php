@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
-<div class="main" role="main">
+<div class="main">
 
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
@@ -8,15 +8,15 @@
   </div> <!--/ site-wrapper mobile-wrapper-->
 </div> <!--/ breadcrumb-bar-->
 
-<div class="listing-intro group">
+<div class="listing-intro">
 	<div class="content-wrapper mobile-wrapper">
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga ducimus quis alias aliquam assumenda? Aliquam, perspiciatis, numquam, atque laboriosam dignissimos maxime optio nulla voluptatibus libero exercitationem quisquam ab non cum maiores adipisci aperiam minima velit sunt accusantium fugit id tempore eveniet labore officiis quam! Deleniti, dolor nihil nemo ab ratione.</p>
 	</div> <!--/ content-wrapper-->
-</div> <!--/ listing-intro group-->
+</div> <!--/ listing-intro -->
 
 <div class="content-wrapper resources-listing-container">
 
-<div class="site-wrapper mobile-wrapper clearfix">
+<div class="site-wrapper mobile-wrapper group">
 
 <aside class="resources-listing-right">
 
@@ -198,7 +198,7 @@
 		</div> <!--/ resources-listing-left-right-->
 	</article> <!--/ listing-person-wrapper group-->
 
-<nav class="pagination" role="navigation">
+<nav class="pagination"  >
 	<ul>
 		<li><a class="prev" href="#">Prev</a></li>
 		<li><a href="#">1</a></li>

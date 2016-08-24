@@ -7,40 +7,39 @@
 }
 
 .clearfloat {
-  clear: both; 
-  display: block; 
-  height: 1px; 
+  clear: both;
+  display: block;
+  height: 1px;
   margin: -1px 0 0 0;
 }
 
 .line:after,
 .lastunit:after,
-.clearfix:after,
+.group:after,
 .group:after {
-  content: "."; 
-  display: block; 
-  clear: both; 
-  visibility: hidden; 
-  overflow: hidden; 
-  line-height: 0; 
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  overflow: hidden;
+  line-height: 0;
   height: 0 !important;
 }
 
-.clearfix {
+.group {
   display: table;
-  // Why not display: table; ?
 }
 
 .line,
-.clearfix,
+.group,
 .group {
   *zoom:1;
 }
 
-html[xmlns] .clearfix {
+html[xmlns] .group {
   display: block;
 }
 
-* html .clearfix {
+* html .group {
   height: 1%;
 }

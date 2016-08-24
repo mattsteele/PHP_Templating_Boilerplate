@@ -2,6 +2,14 @@
   XX.X Utility Navigation
 --------------------------------------------------------------*/
 
+
+.nav ul,
+.nav ol {
+  list-style: none;
+  list-style-image: none;
+
+}
+
 ul#nav_access {position: absolute; top: -9999px; left: -9999px;}
 nav ul {padding: 0;}
 
@@ -29,7 +37,7 @@ nav ul {padding: 0;}
 
 .utility-nav li{
 	display: inline-block;
-	font-family: $font-lato;
+	font-family: $font-raleway;
 	font-size: 15px;
 	&	a{
 		color: white;
@@ -71,7 +79,7 @@ nav ul {padding: 0;}
 
 #primary-nav > ul > li {
 	font-size: 22px;
-	font-family: $font-lato;
+	font-family: $font-raleway;
 	text-align: center;
 	position: relative;
 	display: inline-block;
@@ -162,7 +170,7 @@ nav ul {padding: 0;}
 #primary-nav ul ul li {
 	display: block;
 	margin-right: 0;
-	font-weight: $font-lato;
+	font-weight: $font-raleway;
 	line-height: 24px;
 	text-align: left;
 	padding-left: 10px;
@@ -198,7 +206,7 @@ nav ul {padding: 0;}
 	padding: 8px;
 	text-decoration: none;
 	color: #fff;
-	font-family: $font-lato;
+	font-family: $font-raleway;
 }
 
 .nav-toggle a.open {background-position: 92% -44px;}

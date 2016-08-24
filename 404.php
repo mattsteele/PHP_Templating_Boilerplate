@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
-<div class="main" role="main">
+<div class="main"  >
 
 
 </div> <!--/ main-->

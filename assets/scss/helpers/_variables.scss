@@ -29,9 +29,12 @@ $font-uppercase: uppercase;
 
 
 /* Body Font */
-$body-font: 'lato', sans-serif;
+$body-font: 'Raleway', sans-serif;
 
 
+/* Raleway Font */
+$font-raleway: 'Raleway', sans-serif;
 
-/* Lato Font */
-$font-lato: 'Lato', sans-serif;
+.font-raleeway{
+  font-family:  'Raleway', sans-serif;
+}

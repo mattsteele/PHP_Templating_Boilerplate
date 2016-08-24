@@ -26,24 +26,26 @@
 
   <link rel="stylesheet" href="<?php echo $site_url; ?>assets/build/style.css">
 
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
 
 </head>
 
 <body id="top">
 
-<header class="header group" role="banner">
+<header class="header">
 
 <div class="header-wrapper group">
-	<a class="logo-wrapper" href="<?php echo $site_url; ?>home.php">
+	<a class="logo-wrapper" href="<?php echo $site_url; ?>">
 <img class="header-logo" src="" alt="site title">
   </a>
 
-	<nav class="nav" id="primary-nav" role="navigation">
+	<nav class="nav" id="primary-nav">
 		<p class="menu-link nav-toggle">
 			<a>Open Navigation</a>
 		</p>
 			<ul>
-				<li <?php if ($segment_1 == 'home.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>home.php">Home</a></li>
+				<li <?php if ($segment_1 == '') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>">Home</a></li>
         <li <?php if ($segment_1 == 'styleguide.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>styleguide.php">Styleguide</a></li>
 
 				<li <?php if ($segment_1 == 'resources-listing.php' || $segment_1 == 'resources-single.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>resources-listing.php">Resources</a>
@@ -66,5 +68,5 @@
 		</nav>
 
 
-</div> <!--/ header-wrapper-->
+</div> <!--/ header-wrapper group-->
 </header> <!--/ header-->

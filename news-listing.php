@@ -1,6 +1,6 @@
 <?php require_once('header.php'); ?>
 
-<div class="main" role="main">
+<div class="main"  >
 
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
@@ -11,7 +11,7 @@
 
 <div class="content-wrapper news-listing-container">
 
-<div class="site-wrapper mobile-wrapper clearfix">
+<div class="site-wrapper mobile-wrapper group">
 
 <div class="col-standard-right">
 
@@ -58,7 +58,7 @@
   <p><a href="/news-single.php">Read More >> </a></p>
 </article> <!--/ single-news-item-->
 
-  <nav class="pagination" role="navigation">
+  <nav class="pagination"  >
   <ul>
     <li><a class="prev" href="#">Prev</a></li>
     <li><a href="#">1</a></li>
