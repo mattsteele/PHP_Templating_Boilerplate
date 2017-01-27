@@ -1,4 +1,4 @@
-<? /* Globals for rapid prototyping - Remove in build */ include_once('embeds/_globals.php'); ?>
+<?php include_once('embeds/_globals.php');?>
 
 <!doctype html>
 
