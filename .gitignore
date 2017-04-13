@@ -1,7 +1,6 @@
 # Dependency directory
 # ----------------------------------------------------------------------
 node_modules
-gulpfile.js
 
 
 # Mac specific
