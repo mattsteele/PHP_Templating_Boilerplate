@@ -1,0 +1,49 @@
+ul{
+    li{
+        font-style: normal;
+        padding-bottom: 15px;
+        a{
+            color: $blue-1;
+        }
+        @media only screen and (max-width: 865px) {
+            font-size: 16px;
+        }
+    }
+    @media only screen and (max-width: 865px) {
+        padding-right: 25px;
+    }
+}
+
+ol{
+    font-weight: normal;
+    li{
+        padding-bottom: 15px;
+        font-style: normal;
+        a{
+            color: $blue-1;
+        }
+        @media only screen and (max-width: 865px) {
+            font-size: 16px;
+        }
+    }
+    ol{
+        margin-top: .75em;
+    }
+}
+
+blockquote{
+    p{
+    font-size: 28px;
+    font-weight: normal;
+    font-style: italic;
+    line-height: 1.5;
+    font-family: $font-sans-serif;
+    }
+    cite{
+        font-size: 26px;
+        text-align: right;
+        font-style: normal;
+        color: $blue-1;
+        display: block;
+    }
+}

@@ -56,9 +56,8 @@
 
 
 <!-- load jQuery & fallback, scripts -->
-<!-- load jQuery & fallback, scripts -->
-<script>window.jQuery || document.write('<script src=\'/assets/js/libs/jquery-3.1.0.min.js\'><\/script>')</script>
-<script src="<?php echo $site_url; ?>assets/build/scripts.js"></script>
+
+<script src="<?php echo $site_url; ?>dist/js/app.min.js"></script>
 
 </body>
 </html>

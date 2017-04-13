@@ -1,0 +1,38 @@
+/* # Contact specific styles */
+
+.contact-form{
+	background: $grey-2;
+	padding: 15px 0 15px 9%;
+	@media only screen and (max-width: 865px) {
+		padding: 15px 9% 15px 9%;
+	}
+}
+
+.contact-input-width{
+	width: 90%;
+	@media only screen and (max-width: 865px) {
+		width: 100%;
+	}
+}
+
+.required-label{
+	font-size: 10px;
+	padding-left: 5px;
+}
+
+.form-error{
+	color: red;
+	padding-left: 5px;
+}
+
+.log-button, button, html input[type="button"], input[type="reset"], input[type="submit"]{
+	font-family: $font-sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	background-color: $grey-1;
+	&:hover{
+		background-color: $grey-1;
+		color: white;
+	}
+}
