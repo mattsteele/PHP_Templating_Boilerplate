@@ -25,7 +25,6 @@
 @import "layout/_grid";
 @import "layout/_header";
 @import "layout/_footer";
-@import "layout/_sidebar";
 @import "layout/_print";
 
 
@@ -34,10 +33,8 @@
 @import "navigation/_pagination";
 
 
-
-
-
 // Pages
+@import "pages/_universal";
 @import "pages/_home";
 @import "pages/_contact";
 @import "pages/_styleguide";

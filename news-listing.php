@@ -1,6 +1,5 @@
 <?php require_once('header.php'); ?>
 
-<div class="main"  >
 
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
@@ -73,10 +72,6 @@
 </nav>
 </div> <!--/ events-listing-right-->
 
-<?php require_once('standard-sidebar.php'); ?>
-
 </div> <!--/ content-wrapper news-listing-container-->
-
-</div> <!--/ main-->
 
 <?php require_once('footer.php'); ?>

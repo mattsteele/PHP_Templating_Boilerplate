@@ -1,0 +1,27 @@
+/*  UNIVERSAL STYLES
+=================================================================== /// */
+
+.breadcrumb-bar{
+    background-color: $blue-1;
+    margin-bottom: 50px;
+     p{
+        color: white;
+        padding: 30px 0;
+        @media only screen and (max-width: 865px) {
+            padding: 5px 0;
+            text-align: center;
+        }
+         a{
+            color: white;
+            border-bottom: none;
+            &:hover{
+                color: $grey-1;
+            }
+        }
+
+    }
+    @media only screen and (max-width: 865px) {
+        margin-bottom: 25px;
+        margin-top: 25px;
+    }
+}

@@ -32,13 +32,12 @@
 
 <div class="header-wrapper group">
 	<a class="logo-wrapper" href="<?php echo $site_url; ?>">
-        <img src="/dist/img/generic-logo.png" alt="site title">
+        <img src="/dist/img/generic-logo.png" alt="Company Name">
   </a>
 
 	<nav class="nav">
 		<p class="menu-link nav-toggle"><a></a></p>
 			<ul>
-				<li <?php if ($segment_1 == '') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>">Home</a></li>
         <li <?php if ($segment_1 == 'styleguide.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>styleguide.php">Styleguide</a></li>
 
 				<li <?php if ($segment_1 == 'resources-listing.php' || $segment_1 == 'resources-single.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>resources-listing.php">Resources</a>
