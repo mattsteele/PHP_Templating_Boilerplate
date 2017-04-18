@@ -2,43 +2,58 @@
   XX.X Pagination
 --------------------------------------------------------------*/
 
-.pagination li{
-	display: inline;
-}
 
 .pagination {
-	font-weight: bold;
-	font-size: 16px;
-	float: right;
-	margin-top: 20px;
-	@media only screen and (max-width : 865px) {
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	@media only screen and (max-width: 875px) {
 		float: none;
 		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 40px;
 	}
-
 	a {
 		padding: 8px 16px;
-		border: 2px solid $blue-1;
-		border-radius: 3px;
-		color: $grey-1;
+		border: 2px solid $grey-2;
+		color: $grey-2;
 		text-decoration: none;
-		@media only screen and (max-width : 865px) {
+		@media only screen and (max-width: 875px) {
 			padding: 8px 8px;
 		}
-		@media only screen and (max-width : 440px) {
+		@media only screen and (max-width: 440px) {
 			padding: 8px 5px;
 		}
-
-		&:hover {
-			color: $blue-2;
-		}
-
-		&.active {
-			color: $blue-2;
-
-			&:hover { cursor: default; }
+		&.active{
+			border: 2px solid $grey-2;
+			background: $grey-2;
+			color: white;
+			&:hover{
+				border-color: $grey-2;
+				color: $grey-2;
+				background: white;
+			}
 		}
 	}
+}
+
+.pagination li{
+	display: inline;
+		&:hover a{
+			padding: 8px 16px;
+			border: 2px solid $grey-2;
+			color: $grey-2;
+			cursor: pointer;
+			@media only screen and (max-width : 875px) {
+				padding: 8px 8px;
+			}
+			@media only screen and (max-width : 440px) {
+				padding: 8px 5px;
+			}
+		}
+
+	}
+
 
 	.prev {
 		&:before {
@@ -56,9 +71,8 @@
 
 	.next, .prev {
 		&:hover {
-			border-color: $blue-1;
-			color: $blue-2;
+			border-color: $grey-2;
+			color: $grey-2;
 			text-shadow: none;
 		}
 	}
-}

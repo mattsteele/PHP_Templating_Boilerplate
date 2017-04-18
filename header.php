@@ -35,15 +35,7 @@
 	<nav class="nav">
 		<p class="menu-link nav-toggle"><a></a></p>
 			<ul>
-        <li <?php if ($segment_1 == 'styleguide.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>styleguide.php">Styleguide</a></li>
-
-				<li <?php if ($segment_1 == 'resources-listing.php' || $segment_1 == 'resources-single.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>resources-listing.php">Resources</a>
-					<ul>
-						<li><a href="<?php echo $site_url; ?>resources-listing.php">Subitem One</a></li>
-						<li><a href="<?php echo $site_url; ?>resources-listing.php">Subitem Two</a></li>
-						<li><a href="<?php echo $site_url; ?>resources-listing.php">Subitem Three</a></li>
-					</ul>
-				</li>
+                <li <?php if ($segment_1 == 'styleguide.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>styleguide.php">Styleguide</a></li>
 				<li <?php if ($segment_1 == 'events-listing.php' || $segment_1 == 'events-calendar.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>events-calendar.php">Events</a>
 					<ul>
                         <li><a href="<?php echo $site_url; ?>events-calendar.php">Events Calendar</a></li>

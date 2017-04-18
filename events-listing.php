@@ -6,15 +6,11 @@
   </div> <!--/ site-wrapper mobile-wrapper-->
 </div> <!--/ breadcrumb-bar-->
 
-<div class="content-wrapper resources-listing-container">
-
-<div class="site-wrapper mobile-wrapper group">
-
-<div class="col-standard-right">
+<div class="content-wrapper mobile-wrapper group">
 
 <article class="single-event">
   <h2>Event Name</h2>
-  <h3 class="event-listing-date">December, 26, 2014</h3>
+  <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
   <h3 class="event-listing-location">Anytown, CA</h3>
   <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
   <div class="map-embed">
@@ -25,7 +21,7 @@
 
 <article class="single-event">
   <h2>Event Name</h2>
-  <h3 class="event-listing-date">December, 26, 2014</h3>
+  <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
   <h3 class="event-listing-location">Anytown, CA</h3>
   <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
   <div class="map-embed">
@@ -36,7 +32,7 @@
 
 <article class="single-event">
   <h2>Event Name</h2>
-  <h3 class="event-listing-date">December, 26, 2014</h3>
+  <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
   <h3 class="event-listing-location">Anytown, CA</h3>
   <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
   <div class="map-embed">
@@ -47,7 +43,7 @@
 
 <article class="single-event">
   <h2>Event Name</h2>
-  <h3 class="event-listing-date">December, 26, 2014</h3>
+  <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
   <h3 class="event-listing-location">Anytown, CA</h3>
   <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
   <div class="map-embed">
@@ -58,7 +54,7 @@
 
 <article class="single-event">
   <h2>Event Name</h2>
-  <h3 class="event-listing-date">December, 26, 2014</h3>
+  <h3 class="event-listing-date">D<?php echo date("F j, Y") ?></h3>
   <h3 class="event-listing-location">Anytown, CA</h3>
   <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
   <div class="map-embed">
@@ -69,7 +65,7 @@
 
 <article class="single-event">
   <h2>Event Name</h2>
-  <h3 class="event-listing-date">December, 26, 2014</h3>
+  <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
   <h3 class="event-listing-location">Anytown, CA</h3>
   <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
   <div class="map-embed">
@@ -78,43 +74,23 @@
   </div> <!--/ map-embed-->
 </article> <!--/ single-event-->
 
-  <nav class="pagination"  >
-  <ul>
-    <li><a class="prev" href="#">Prev</a></li>
-    <li><a href="#">1</a></li>
-    <li><a href="#">2</a></li>
-    <li><a class="active" href="#">3</a></li>
-    <li><a href="#">4</a></li>
-    <li><a href="#">5</a></li>
-    <li><a href="#">6</a></li>
-    <li><a href="#">7</a></li>
-    <li><a class="next" href="#">Next</a></li>
-  </ul>
-</nav>
-</div> <!--/ events-listing-right-->
+  <nav class="pagination">
+    <ul>
+      <li><a class="prev" href="#">Prev</a></li>
+      <li><a href="#">1</a></li>
+      <li><a href="#">2</a></li>
+      <li><a class="active" href="#">3</a></li>
+      <li><a href="#">4</a></li>
+      <li><a href="#">5</a></li>
+      <li><a href="#">6</a></li>
+      <li><a href="#">7</a></li>
+      <li><a class="next" href="#">Next</a></li>
+    </ul>
+  </nav>
 
-<aside class="col-standard-left event-aside">
 
-  <h3>Upcoming Events</h3>
-  <ul>
-    <li><a href="">Event One</a></li>
-    <li><a href="">Event Two</a></li>
-    <li><a href="">Event Three</a></li>
-    <li><a href="">Event Four</a></li>
-    <li><a href="">Event Five</a></li>
-  </ul>
 
-  <h3>Recent News Articles</h3>
-  <ul>
-    <li><a href="">Recent Article One</a></li>
-    <li><a href="">Recent Article Two</a></li>
-    <li><a href="">Recent Article Three</a></li>
-    <li><a href="">Recent Article Four</a></li>
-    <li><a href="">Recent Article Five</a></li>
-  </ul>
 
-</aside>
-
-</div> <!--/ content-wrapper resources-listing-container-->
+</div> <!-- content-wrapper mobile-wrapper group -->
 
 <?php require_once('footer.php'); ?>
