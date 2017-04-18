@@ -45,5 +45,12 @@ blockquote{
         font-style: normal;
         color: $blue-1;
         display: block;
+        a{
+            color: $blue-1;
+            text-decoration: none;
+            &:hover{
+                color: $blue-2;
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@
 
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
-    <p><a href="events-calendar.php">Events</a> >> Events Listing</p>
+    <p><a href="events-calendar.php">Events</a> > Events Listing</p>
   </div> <!--/ site-wrapper mobile-wrapper-->
 </div> <!--/ breadcrumb-bar-->
 

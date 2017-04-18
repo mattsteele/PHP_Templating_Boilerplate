@@ -12,7 +12,7 @@
 
   <article class="single-news-item">
     <h2><a href="/news-single.php">New Study Shows Important Things</a></h2>
-    <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
+    <h3 class="news-listing-date"><?php echo date("F j, Y") ?></h3>
     <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
     <p><a href="/news-single.php">Read More >> </a></p>
 
@@ -20,35 +20,35 @@
 
   <article class="single-news-item">
     <h2><a href="/news-single.php">Lots of Changes to This Site</a></h2>
-    <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
+    <h3 class="news-listing-date"><?php echo date("F j, Y") ?></h3>
     <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
     <p><a href="/news-single.php">Read More >> </a></p>
   </article> <!--/ single-news-item-->
 
   <article class="single-news-item">
     <h2><a href="/news-single.php">Here's a Really Long News Article Title. It Goes on Forever and Ever</a></h2>
-    <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
+    <h3 class="news-listing-date"><?php echo date("F j, Y") ?></h3>
     <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
     <p><a href="/news-single.php">Read More >> </a></p>
   </article> <!--/ single-news-item-->
 
   <article class="single-news-item">
     <h2><a href="/news-single.php">Here's Another News Item</a></h2>
-    <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
+    <h3 class="news-listing-date"><?php echo date("F j, Y") ?></h3>
     <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
     <p><a href="/news-single.php">Read More >> </a></p>
   </article> <!--/ single-news-item-->
 
   <article class="single-news-item">
     <h2><a href="/news-single.php">One Last News Item Makes Five</a></h2>
-    <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
+    <h3 class="news-listing-date"><?php echo date("F j, Y") ?></h3>
     <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
     <p><a href="/news-single.php">Read More >> </a></p>
   </article> <!--/ single-news-item-->
 
   <article class="single-news-item">
-    <h2><a href="/news-single.php">One Last Event Makes Five</a></h2>
-    <h3 class="event-listing-date"><?php echo date("F j, Y") ?></h3>
+    <h2><a href="/news-single.php">One Last News Item Makes Five</a></h2>
+    <h3 class="news-listing-date"><?php echo date("F j, Y") ?></h3>
     <p>Join us for consectetur adipisicing elit. Soluta, tempore, odit, dignissimos quidem aperiam et consequatur necessitatibus odio sit sequi consequuntur maiores ratione reiciendis error ipsa facere illum aliquid incidunt molestiae porro totam suscipit debitis expedita natus nam ducimus in? Vero, odit dicta aut labore ullam laboriosam aliquam molestiae dignissimos.</p>
     <p><a href="/news-single.php">Read More >> </a></p>
   </article> <!--/ single-news-item-->

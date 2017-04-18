@@ -15,7 +15,7 @@ var gulp        = require('gulp'),
     path        = require('path'),
     browserSync = require('browser-sync').create();
 
-// Static Server + watching scss/html files
+
 gulp.task('serve', ['sass', 'js'], function() {
 
     browserSync.init({
@@ -29,7 +29,7 @@ gulp.task('serve', ['sass', 'js'], function() {
     gulp.watch('./*.html').on('change', browserSync.reload);
 });
 
-// Configure CSS tasks.
+
 gulp.task('sass', function () {
   return gulp.src('src/scss/**/*.scss')
     .pipe(sass.sync().on('error', sass.logError))
@@ -37,10 +37,11 @@ gulp.task('sass', function () {
     .pipe(cssmin())
     .pipe(rename({suffix: '.min'}))
     .pipe(gulp.dest('dist/css'))
-    .pipe(browserSync.stream());
+    .pipe(browserSync.stream())
+    .on('end', function () { beep(); });
 });
 
-// Configure JS.
+
 gulp.task('js', function() {
   return gulp.src('src/js/**/*.js')
     .pipe(uglify())
@@ -49,7 +50,7 @@ gulp.task('js', function() {
     .pipe(gulp.dest('dist/js'))
     .pipe(browserSync.stream());
 });
-//use svgmin, but not store
+
 
 gulp.task('svgmin', function () {
     return gulp.src('src/svg/**/*.+(svg)')
@@ -58,14 +59,13 @@ gulp.task('svgmin', function () {
 });
 
 
-// Configure image stuff.
 gulp.task('images', function () {
   return gulp.src('src/img/**/*.+(png|jpg|gif)')
     .pipe(imagemin())
     .pipe(gulp.dest('dist/img'));
 });
 
-// Configure image stuff.
+
 gulp.task('favicons', function () {
   return gulp.src('src/favicons/**/*.+(ico)')
     .pipe(imagemin())
@@ -77,4 +77,5 @@ gulp.task('watch', function () {
   gulp.watch('src/js/**/*.js', ['js']);
   gulp.watch('./*.html').on('change', browserSync.reload);
 });
-gulp.task('default', ['sass', 'js', 'images', 'favicons', 'svgmin', 'serve']).on('end', function () { beep(); });
+
+gulp.task('default', ['sass', 'js', 'images', 'favicons', 'svgmin', 'serve']);

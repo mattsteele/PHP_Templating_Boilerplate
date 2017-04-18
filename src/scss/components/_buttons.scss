@@ -3,34 +3,37 @@
   XX.X Buttons
 --------------------------------------------------------------*/
 
-.button {
-	display: inline-block;
-	padding: 10px 15px;
-	background: rgba(101, 130, 161, 1.0);
-	border: solid 2px white;
-	border-radius: 3px;
-	color: white;
-	text-transform: uppercase;
-	font-family: $font-sans-serif;
-	text-rendering: optimizelegibility;
-	text-decoration: none;
-	font-size: 21px;
-	letter-spacing: 2px;
-	transition: all .75s ease;
-	-webkit-appearance: none;
-	max-width: 100%;
-    &:hover{
-      border: solid 2px rgba(255, 255, 255, 0.5);
-      cursor: pointer;
-      color: $grey-1;
-      background: rgba(255, 255, 255, 0);
+    .button {
+        transition: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        display: inline-block;
+        text-decoration: none;
+        background-color: rgba(224,95,88,1);
+        padding: 12px 25px;
+        line-height: 1em;
+        color: white;
+        text-transform: uppercase;
+        font-weight: normal;
+        border: none;
+        font-family: $font-sans-serif;
+        font-weight: bold;
+        font-size: 22px;
+        background-image: linear-gradient(to left,
+            transparent,
+            transparent 50%,
+            rgb(53,53,53) 50%,
+            rgb(53,53,53));
+        background-position: 99% 0;
+        background-size: 205% 100%;
+        transition: all .25s ease-in-out;
+         @media only screen and (max-width: 865px) {
+            font-size: 22px;
+            width: 100%;
+         }
     }
-}
-
-.submit-button{
-  padding: 10px 20px;
-  margin-right: 8%;
-  &:hover{
-     background-color: #132250;
-  }
-}
+    .button:hover {
+        padding: 12px 25px;
+        background-position: 0 0;
+    }

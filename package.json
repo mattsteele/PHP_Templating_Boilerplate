@@ -3,18 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "gulpfile.js",
-  "author": "Matt Steele <matt@matt-steele.com>",
+  "author": "",
   "dependencies": {
     "gulp": "^3.9.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
     "browser-sync": "^2.12.8",
+    "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-concat": "^2.6.0",
     "gulp-cssmin": "^0.1.7",
     "gulp-imagemin": "^3.0.1",
+    "gulp-notify": "^3.0.0",
     "gulp-pa11y": "0.0.4",
+    "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.1",
     "gulp-uglify": "^1.5.3",
@@ -27,7 +29,6 @@
     "type": "git",
     "url": "git+https://github.com/mattsteele/phpboilerplate.git"
   },
-  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mattsteele/phpboilerplate/issues"
