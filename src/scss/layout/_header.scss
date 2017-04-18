@@ -5,10 +5,18 @@
 .logo-wrapper{
 	display: block;
 	float: left;
+    margin-top: 25px;
 	img{
-        max-width: 260px;
+        max-width: 200px;
         &:hover{
             opacity: .7;
         }
+        @media screen and (max-width: 865px) {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    @media screen and (max-width: 865px) {
+        float: none;
     }
 }

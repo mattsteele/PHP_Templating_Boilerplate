@@ -1,128 +1,105 @@
 /*--------------------------------------------------------------
-  XX.X Utility Navigation
---------------------------------------------------------------*/
-
-
-.nav ul,
-.nav ol {
-  list-style: none;
-  list-style-image: none;
-
-}
-
-ul#nav_access {
-	position: absolute;
-	top: -9999px;
-	left: -9999px;
-}
-nav ul {
-	padding: 0;
-}
-
-.utility-nav .disk {
-	color: white;
-	font-size: 12px;
-}
-
-.utility-nav{
-	background-color: $grey-1;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding: 4px 12px;
-	position: absolute;
-	top: 0;
-	left: 0;
-		@media screen and (max-width: 865px) {
-			position: static;
-			float: none;
-			text-align: center;
-			margin-bottom: 0;
-			clear: both;
-		}
-}
-
-.utility-nav li{
-	display: inline-block;
-	font-family: $font-serif;
-	font-size: 15px;
-	&	a{
-		color: white;
-		&:hover{
-			color: $grey-1;
-		}
-	}
-}
-
-
-/*--------------------------------------------------------------
   XX.X Main Navigation
 --------------------------------------------------------------*/
 
-.nav > ul >li.active-nav{
-	/* display: none; */
-	background-color: red;
+
+.nav-toggle {
+	display: none;
+	text-align: center;
+	@media screen and (max-width: 865px) {
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
 }
 
-.nav .active-nav > a{
+.nav-toggle a {
+	display: block;
 	color: white;
+	font-family: $font-sans-serif;
+	background: url(/dist/img/nav-white.png) no-repeat 96% 11px;
+	background-color: $grey-1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-decoration: none;
+	border: 2px solid $blue-2;
+	&.open{
+		background-position: 96% -44px;
+	}
+	&:hover{
+		background-color: transparent;
+	}
 }
+
+
 
 .nav{
-	z-index: 100;
-	position: relative;
 	float: right;
-	margin-top: 51px;
+	margin-top: 50px;
 	width: auto;
-	@media only screen and (max-width : 865px) {
+	@media only screen and (max-width: 865px) {
 		clear: both;
+		width: 100%;
+		float: none;
+		margin-top: 20px;
 	}
 }
 
-.nav > ul {
-	text-align: center;
-	font-size: 0; /* removes the horizontal white space from its children */
+.nav li a {
+	@media only screen and (max-width: 865px) {
+		color: white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 18px;
+	}
 }
 
-.nav > ul > li {
-	font-size: 22px;
-	font-family: $font-serif;
-	text-align: center;
-	position: relative;
-	display: inline-block;
-	*display: inline;
-  zoom: 1;
-	padding: 4px 4px;
-	margin-right: 14px;
-	& a{
-		color: $grey-3;
-		@media only screen and (max-width : 865px) {
-			color: white;
+
+.nav li span {
+	display: none;
+	@media only screen and (max-width: 865px) {
+		display: block;
+		position: absolute;
+		top: 8px;
+		right: 25px;
+		text-shadow: none;
+		font-size: 16px;
+		cursor: pointer;
+		color: white;
+	}
+}
+
+
+.nav > ul > li.open {
+	padding: 2px 0;
+}
+
+
+
+.nav ul {
+	padding: 0;
+	list-style: none;
+	list-style-image: none;
+	@media only screen and (max-width: 865px) {
+		display: none;
+		text-align: center;
+		float: none;
+		margin: 0;
+		padding: 0;
+		font-size: 15px;
+		text-align: center;
+		background: #396498;
+		-webkit-border-radius: 0;
+		-moz-border-radius: 0;
+		border-border-radius: 0;
+	}
+	li{
+		@media only screen and (max-width: 865px) {
+			display: block;
+			padding: 5px 0;
+			width: 100%;
 		}
 	}
-
-}
-
-.nav ul ul.final-child {
-	left: auto;
-	right: 0;
-	width: 180px;
-}
-
-.nav > ul > li:hover, .nav > ul > li:active {
-	background-color: $grey-1;
-		& a{
-		color: black;
-	}
-}
-
-.nav > li:hover a, .nav > li:active a{
-	color: black;
-}
-
-
-
-.nav li:last-child {
-	margin-right: 0;
 }
 
 .nav ul ul {
@@ -134,37 +111,101 @@ nav ul {
 	width: 175px;
 	margin: 0;
 	padding: 0;
-	z-index: 9999;
+	z-index: 1;
 	background-color: $grey-1;
+	@media only screen and (max-width: 865px) {
+		position: static;
+		width: auto;
+	}
 }
 
-.nav ul li:hover ul {
-	display: block;
+
+
+
+
+.nav > ul {
+	text-align: center;
+	font-size: 0;
+	@media only screen and (max-width: 865px) {
+		font-size: 0;
+		background: $blue-1;
+	}
 }
 
-.nav ul ul li {
-	display: block;
-	margin-right: 0;
-	font-weight: $font-serif;
-	line-height: 24px;
-	text-align: left;
-	padding-left: 10px;
+
+.nav > ul > li {
+	font-size: 22px;
+	font-family: $font-serif;
+	text-align: center;
+	position: relative;
+	display: inline-block;
+	padding: 4px 4px;
+	margin-right: 14px;
+	& a{
+		color: $grey-3;
+		@media only screen and (max-width: 865px) {
+			color: white;
+		}
+	}
+	@media only screen and (max-width: 865px) {
+		margin-right: 0;
+	}
 }
 
-.nav ul ul li:hover {
+
+
+.nav > ul > li:hover,
+.nav > ul > li:active {
 	background-color: $grey-1;
+	cursor: pointer;
+	 a{
+		color: black;
+	}
 }
 
-.nav ul ul li:hover a{
-	color: #fff;
+
+
+.nav > ul > li:hover ul {
+	display: block;
+	@media only screen and (max-width: 865px) {
+		display: none;
+	}
 }
 
-.nav ul ul li a {display: block;}
+
+// .nav > ul > ul > li {
+// 	display: block;
+// 	margin-right: 0;
+// 	font-weight: $font-serif;
+// 	line-height: 24px;
+// 	text-align: left;
+// 	padding-left: 10px;
+// 	@media only screen and (max-width: 865px) {
+// 		margin: 0 auto;
+// 		padding: 5px 0;
+// 		background-color: #479DD7;
+// 		text-align: center;
+// 	}
+// }
 
 
-.nav ul ul li a:hover {
-	color: #fff;
-}
+// .nav > ul > ul > li:hover {
+// 	background-color: $grey-1;
+// }
+
+
+// .nav > ul > ul > li:hover a{
+// 	color: #fff;
+// }
+
+// .nav > ul > ul > li > a {
+// 	display: block;
+// }
+
+
+// .nav > ul > ul > li > a:hover {
+// 	color: #fff;
+// }
 
 .nav li.arrow {
 	position: absolute;
@@ -173,37 +214,13 @@ nav ul {
 	margin-left: -11px;
 	width: 22px;
 	height: 11px;
-
 	background: url(/dist/img/nav-arrow.png) no-repeat 0 0;
+	@media screen and (max-width: 865px) {
+		display: none;
+	}
 }
 
-.nav li span {
-	display: none;
-}
 
-.nav li.open span {
-	padding: 2px 10px;
-}
-
-.nav-toggle {
-	display: none;
-	text-align: center;
-}
-
-.nav-toggle a {
-	display: block;
-	background: url(/dist/img/nav-white.png) no-repeat 92% 11px;
-	background-color: $grey-1;
-	cursor: pointer;
-	padding: 8px;
-	text-decoration: none;
-	color: #fff;
-	font-family: $font-sans-serif;
-}
-
-.nav-toggle a.open {
-	background-position: 92% -44px;
-}
 
 
 
@@ -218,157 +235,9 @@ nav ul {
 }
 
 
-.parent-current-nav{
-	background-color: #c9a50d !important;
-}
-
-.parent-current-nav a{
-	color: #fff !important;
+.nav .current-nav > a{
+	color: white;
 }
 
 
 
-@media only screen and (max-width : 865px) {
-/*
-	============================================
-	    RESPONSIVE NAVIGATION
-	============================================
-*/
-
-	.nav {
-		z-index: 100;
-		position: relative;
-		width: 100%;
-		float: none;
-		margin-top: 20px;
-	}
-
-	/*  mobile nav switches to :
-			- straight corners
-			- flat background color
-			- text centers
-			- loses all margin & padding
-			- lowers the font size to 15px
-	 */
-
-	.nav ul {
-		display: none;
-		text-align: center;
-		float: none;
-		margin: 0;
-		padding: 0;
-		font-size: 15px;
-		text-align: center;
-		background: #396498;
-		-webkit-border-radius: 0;
-		-moz-border-radius: 0;
-		border-border-radius: 0;
-	}
-
-/*  switch the nav font color to white, lower the font size and remove the padding	 */
-
-	.nav li a {
-		display: block;
-		color: #fff;
-		text-decoration: none;
-		width: 100%;
-		font-weight: bold;
-		padding: 0;
-		font-size: 14px;
-	}
-
-	.nav-toggle {
-		display: block;
-		color: #fff;
-		padding: 0;
-		margin-bottom: 0;
-	}
-
-
-	.nav ul li {
-		display: block;
-		padding: 5px 0;
-		width: 100%;
-	}
-
-	/* This corrects the size of the final main dropdown in mobile view */
-	.nav ul ul.final-child {
-		left: 0;
-		width: 100%;
-		text-align: center;
-	}
-
-	.nav ul li.last {
-		display: block;
-		padding: 15px 0;
-		width: 100%;
-	}
-
-	.nav li span {
-		position: absolute;
-		top: 10px;
-		right: 25px;
-		float: right;
-		text-shadow: none;
-		font-size: 12px;
-		padding: 0 8px;
-		cursor: pointer;
-		color: #fff;
-	}
-
-	.nav > ul > li.open{
-		padding-bottom: 0;
-	}
-
-	.nav > ul > li.open > a{
-		text-shadow: none;
-		color: #fff;
-		padding-bottom: 10px;
-	}
-
-	.nav ul li:hover ul{
-		display: none;
-	}
-
-	.nav ul ul {
-		position: static;
-		width: auto;
-		padding: 0;
-		margin-top: 0;
-		background: #fff;
-		-webkit-box-shadow: none;
-		-moz-box-shadow: none;
-		-o-box-shadow: none;
-		-khtml-box-shadow: none;
-		box-shadow: none;
-	}
-
-	.nav ul ul li {
-		margin: 0 auto;
-		padding: 5px 0;
-		background-color: #479DD7;
-		text-align: center;
-	}
-
-	.nav ul ul li:hover {
-		background-color: #b2b2b2;
-	}
-
-	.nav ul li.current-nav {
-		background-color: $grey-1;
-	}
-
-	.nav > ul {
-		text-align: center;
-		font-size: 0;
-		background: #396498;
-	}
-
-	.nav li.arrow {
-		display: none;
-	}
-
-	.nav li span {
-		display: block;
-	}
-}

@@ -1,23 +1,20 @@
 <?php include_once('embeds/_globals.php');?>
 
-<!doctype html>
+<!DOCTYPE html>
 
-<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
-<!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
-<!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
-<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
+<html lang="en">
+
 <head>
 
-  <base href="Front End Boilerplate">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-  <title><?php echo $site_name; ?></title>
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title><?php echo $site_name; ?></title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
 
  <!--   ADD FAVICONS -->
 
@@ -30,10 +27,10 @@
 
 <header class="header">
 
-<div class="header-wrapper group">
+    <div class="header-wrapper group">
 	<a class="logo-wrapper" href="<?php echo $site_url; ?>">
         <img src="/dist/img/generic-logo.png" alt="Company Name">
-  </a>
+    </a>
 
 	<nav class="nav">
 		<p class="menu-link nav-toggle"><a></a></p>
@@ -49,7 +46,7 @@
 				</li>
 				<li <?php if ($segment_1 == 'events-listing.php' || $segment_1 == 'events-calendar.php') { ?> class="current-nav"<?php } ?>><a href="<?php echo $site_url; ?>events-calendar.php">Events</a>
 					<ul>
-            <li><a href="<?php echo $site_url; ?>events-calendar.php">Events Calendar</a></li>
+                        <li><a href="<?php echo $site_url; ?>events-calendar.php">Events Calendar</a></li>
 						<li><a href="<?php echo $site_url; ?>events-listing.php">Events Listing</a></li>
 					</ul>
 				</li>
@@ -59,6 +56,5 @@
 			</ul>
 		</nav>
 
-
-</div> <!--/ header-wrapper group-->
+    </div> <!--/ header-wrapper group-->
 </header> <!--/ header-->
