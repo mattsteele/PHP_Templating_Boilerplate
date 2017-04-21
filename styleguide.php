@@ -1,6 +1,5 @@
 <?php require_once('header.php'); ?>
 
-<div id="primary_content"  >
 <div class="breadcrumb-bar">
   <div class="content-wrapper mobile-wrapper">
     <p><a href="styleguide.php">Styleguide</a></p>
