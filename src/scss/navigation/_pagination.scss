@@ -5,7 +5,7 @@
 
 .pagination {
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 80px;
 	margin-bottom: 40px;
 	@media only screen and (max-width: 875px) {
 		float: none;
@@ -13,10 +13,13 @@
 		margin-top: 40px;
 		margin-bottom: 40px;
 	}
+	ul{
+		padding-left: 0;
+	}
 	a {
 		padding: 8px 16px;
-		border: 2px solid $grey-2;
-		color: $grey-2;
+		border: 2px solid $blue-1;
+		color: $blue-1;
 		text-decoration: none;
 		@media only screen and (max-width: 875px) {
 			padding: 8px 8px;
@@ -28,11 +31,11 @@
 			border: 2px solid $grey-2;
 			background: $grey-2;
 			color: white;
-			&:hover{
-				border-color: $grey-2;
-				color: $grey-2;
-				background: white;
-			}
+		}
+		&:hover{
+			border-color: $blue-1;
+			color: $blue-1;
+			background: $grey-1;
 		}
 	}
 }
