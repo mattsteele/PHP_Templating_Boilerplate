@@ -1,4 +1,7 @@
 ul{
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 2em;
     li{
         font-style: normal;
         padding-bottom: 15px;
@@ -15,6 +18,9 @@ ul{
 }
 
 ol{
+    list-style: disc;
+    list-style-position: outside;
+    padding-left: 2em;
     font-weight: normal;
     li{
         padding-bottom: 15px;
